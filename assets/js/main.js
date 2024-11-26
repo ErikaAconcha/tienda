@@ -221,7 +221,7 @@ function updateCartCount() {
  * Enlace para preguntar por los productos vía WhatsApp
  */
 function checkoutWhatsApp() {
-  const phoneNumber = '+573128566435'; // Cambia al número correcto si es necesario
+  const phoneNumber = '+573223374989'; // Cambia al número correcto si es necesario
 
   if (cart.length === 0) {
     alert('El carrito está vacío.');
