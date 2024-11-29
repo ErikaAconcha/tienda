@@ -425,6 +425,63 @@ h6 {
 
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
+
+    /* Estilos para el header */
+    .header {
+      padding: 10px 15px;
+      height: 60px; /* Ajustar ligeramente la altura */
+    }
+  
+    .header .logo {
+      font-size: 14px; /* Tamaño ligeramente más grande */
+      font-weight: bold;
+      line-height: 1;
+      margin: 0px 0 0 10px; /* Más espacio para alineación */
+      display: flex;
+      align-items: center;
+    }
+  
+    .header .logo img {
+      max-height: 40px; /* Tamaño un poco más grande */
+      margin-right: 6px;
+    }
+  
+    .header .logo .sitename {
+      font-size: 20px; /* Ajustado ligeramente para mayor visibilidad */
+      margin-left: 0px;
+    }
+  
+    /* Ícono de menú hamburguesa */
+    .mobile-nav-toggle {
+      font-size: 22px; /* Tamaño adecuado para visualización */
+      color: var(--nav-color);
+      cursor: pointer;
+      position: absolute;
+      top: 5px;
+      right: 2px; /* Espacio suficiente del borde */
+      z-index: 1000;
+    }
+  
+    /* Ocultar el botón de login */
+    .btn-getstarted {
+      display: none;
+    }
+  
+    /* Botón del carrito */
+    .btn-cart {
+      font-size: 20px; /* Tamaño ligeramente aumentado */
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top: 2px;
+      right: 10px; /* Espacio ajustado a la izquierda del menú hamburguesa */
+    }
+  
+    .btn-cart .badge {
+      font-size: 11px; /* Tamaño ajustado para que sea visible */
+      padding: 3px 6px;
+    }
+    
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
@@ -549,6 +606,9 @@ h6 {
     display: block;
   }
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Global Footer
